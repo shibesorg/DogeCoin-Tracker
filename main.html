@@ -2,39 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>New Tab</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="icon.png">
 
+  <title>New Tab</title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+    crossorigin="anonymous">
+  <!-- Custom styling -->
+  <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-        
-        <h1 class="text-center" style="padding: 10px 0 0 0">DogeCoin Price Tracker</h1>
-            <br>
-    <div class="jumbotron container">
-        <div class="row text-center">
-            <div class="col-md-4">
-               <h2>DOGE : USD</h2>
-                <script src="js/usd.js"></script>
-                <script src="js/widget.js" type="text/javascript"></script>
-            </div>
-            <div class="col-md-4">
-               <h2>DOGE : GBP</h2>
-                <script src="js/gbp.js"></script>
-                <script src="js/widget.js" type="text/javascript"></script>
-            </div>
-            <div class="col-md-4">
-               <h2>DOGE : EUR</h2>
-                <script src="js/eur.js"></script>
-                <script src="js/widget.js" type="text/javascript"></script>
-            </div>
+
+  <div class="site-wrapper">
+
+    <div class="site-wrapper-inner">
+      <header class="masthead clearfix">
+        <div class="inner">
+          <h3 class="masthead-brand">
+            <a href="https://shibes.org">
+              <img src="Dogecoin.png" /> shibes.org</a>
+          </h3>
         </div>
+      </header>
+
+      <main role="main" class="inner cover">
+        <h1 class="text-center" style="padding: 10px 0 0 0"> DogeCoin Price Tracker</h1>
+        <br>
+        <div class="jumbotron container">
+          <div class="row text-center">
+            <div class="col-md-4">
+              <h2>DOGE : USD</h2>
+              <script src="js/usd.js"></script>
+              <script src="js/widget.js" type="text/javascript"></script>
+
+            </div>
+            <div class="col-md-4">
+              <h2>DOGE : GBP</h2>
+              <script src="js/gbp.js"></script>
+              <script src="js/widget.js" type="text/javascript"></script>
+            </div>
+            <div class="col-md-4">
+              <h2>DOGE : EUR</h2>
+              <script src="js/eur.js"></script>
+              <script src="js/widget.js" type="text/javascript"></script>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="cover-container">
+        <footer class="mastfoot">
+          <div class="inner">
+            <p>Developed by
+              <a href="https://shibes.org">Shibes.org</a> - view the source code
+              <a href="https://github.com/shibesorg/DogeCoin-Tracker">here</a>.</p>
+          </div>
+        </footer>
+
+      </div>
     </div>
 
-    <div class="jumbotron">
-        <p class="text-center">Developed by <a href="https://shibes.org">Shibes Org</a> - view the source code <a href="">here</a>.</p>
-    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

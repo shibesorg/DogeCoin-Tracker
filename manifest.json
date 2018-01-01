@@ -3,7 +3,7 @@
 
   "name": "Shibes.Org DogeCoin Tracker",
   "description": "This extension replaces the new tab page in chrome with price tracking information about the DogeCoin.",
-  "version": "1.11",
+  "version": "1.14",
 
   "browser_action": {
     "default_icon": "icon.png",
